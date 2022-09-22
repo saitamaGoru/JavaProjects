@@ -1,0 +1,63 @@
+package References;
+
+import java.util.Scanner;
+
+public class refTest {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int counter =0;
+		int a= 30;
+		int b=40;
+		System.out.printf("[%d] a:%d b:%d%n",++counter,a,b);
+		b=a;
+		a=55;
+		System.out.printf("[%d] a:%d b:%d%n",++counter,a,b);
+		
+		update(a);
+		update(b);
+		
+		System.out.printf("[%d] a:%d b:%d%n",++counter,a,b);
+		
+	String xyz = "Hello world";
+	
+	System.out.printf("[%d] xyz:%s %n",++counter,xyz);
+	
+	update(xyz);
+	
+	System.out.printf("[%d] xyz:%s %n",++counter,xyz);
+	
+	int[] c= new int[100];
+	System.out.printf("Number of accounts created: %d%n",Account.howManyAccounts());
+	Account c1;
+	
+	System.out.printf("Number of accounts created: %d%n",Account.howManyAccounts());
+	
+	c1=new Account();
+	System.out.printf("Number of accounts created: %d%n",Account.howManyAccounts());
+	Account c2=c1;
+	System.out.printf("Number of accounts created: %d%n",Account.howManyAccounts());
+	c1.setName("David");
+	System.out.printf("C1 initial name is: %s%n%n",c1.getName());
+	System.out.printf("C2 initial name is: %s%n%n",c2.getName());
+	update(c1);
+	System.out.printf("C1 initial name is: %s%n%n",c1.getName());
+	System.out.printf("C2 initial name is: %s%n%n",c2.getName());
+	
+		
+	}
+	public static void update(int c)
+	{
+		c=100;
+	}
+	public static void update(string c)
+	{
+		c="Welcome";
+	}
+	public static void update(Account cc)
+	{
+		cc.setName("Mike");
+	}
+}
