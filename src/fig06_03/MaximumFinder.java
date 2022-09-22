@@ -20,6 +20,7 @@ public class MaximumFinder {
 		maximumFinder.simpleMethod();
 		
 		System.out.println("Maximum is:" + result);
+		input.close();
 	}
 		
 		public static int maximum (int num1, int num2, int num3)

@@ -12,7 +12,7 @@ public class Sphere {
 		double radius = input.nextDouble();
 		
 		System.out.printf("Volume is %.3f%n:", sphereVolume(radius));
-		
+		input.close();
 	}
 	public static double sphereVolume(double radius)
 	{
