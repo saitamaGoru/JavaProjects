@@ -1,0 +1,11 @@
+package PrimitiveTypes;
+
+public class PrimitiveTypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean aBool = true;
+		char a
+	}
+
+}
